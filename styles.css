@@ -1,0 +1,79 @@
+.mySectionClass{
+    margin: 20px;
+}
+
+.wrapper{
+    margin: auto;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+}
+
+
+.margins{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.article{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 36px -11px #000000;
+    width: 200px;
+    height: 250px;
+    padding-bottom: 6px; 
+
+}
+.img1{
+    position: relative;
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    transition: transform 200ms;
+}
+.myheader{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+.secondheader{
+    font-size: 10px;
+    font-family: 'Playfair Display';
+
+}
+.paragraph{
+    font-size: 9px;
+    font-family: 'Playfair Display';
+    color: grey;
+
+}   
+.navigation{
+    position: top;
+    text-align:center;  
+}
+.navigation a{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    background-color: grey;
+    
+    box-sizing: border-box;
+    transition: font-size 500ms, padding-right 500ms, padding-left 500ms, margin-right 500ms, margin-left 500ms, margin-bottom 500ms, margin-top 500ms, padding-top 500ms, padding-bottom 500ms;
+}
+
+.navigation a:hover{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
